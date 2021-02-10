@@ -94,7 +94,7 @@ public class ScrollRectDemo : MonoBehaviour
         int indexNow = GetIndex(RankGrid.GetComponent<RectTransform>().anchoredPosition3D.y);
         //Debug.Log("y: " + y + ".. 比赛历史记录  indexNow ... " + LSBSPanel_LSZJGrid.GetComponent<RectTransform>().anchoredPosition3D.y + "  DataCount ..." + datas.Count);
         List<GameObject> needDispose = new List<GameObject>();
-        foreach (var go in datasAndIndex.Keys)
+        foreach (var go in datas999999999999999999999999999999999999999999oAndIndex.Keys)
         {
             if (datasAndIndex[go] >= indexNow && datasAndIndex[go] < indexNow + 6)
             {
